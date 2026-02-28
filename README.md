@@ -1,30 +1,42 @@
-
-        .header {
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        .header p {
-            margin: 5px 0 0;
-            font-size: 14px;
-            opacity: 0.9;
-        }
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример моего сайта</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        header { background: #f4f4f4; padding: 1rem; text-align: center; }
+        main { padding: 20px; }
+        footer { text-align: center; padding: 1rem; background: #333; color: #fff; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🎮 PlayerDetector</h1>
-        <p>Real-time player detection system</p>
-    </div>
+
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+    </header>
+
+    <main>
+        <h2>О нас</h2>
+        <p>Это пример простой HTML-страницы. Мы используем структурные теги для контента.</p>
+        
+        <h3>Наши услуги</h3>
+        <ul>
+            <li>Создание структуры HTML</li>
+            <li>Стилизация с CSS</li>
+        </ul>
+
+        <p>Для обучения HTML можно использовать ресурсы вроде 
+           <a href="https://developer.mozilla.org/ru/docs/Learn" target="_blank">
+           MDN Web Docs
+           </a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мой Сайт</p>
+    </footer>
+
 </body>
 </html>
