@@ -1,1 +1,1 @@
-# ProjectDeltaPlayerDetector
+# ProjectDeltaPlayerDetect
